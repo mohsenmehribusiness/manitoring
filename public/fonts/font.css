@@ -1,0 +1,31 @@
+﻿@font-face {
+  font-family: 'iransansweb';
+  src: url('IRANSansWeb.eot?#') format('eot'),  /* IE6�8 */
+       url('IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('IRANSansWeb.ttf') format('truetype');  /* Saf3�5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'iransansweb_bold';
+  src: url('IRANSansWeb_Bold.eot?#') format('eot'),  /* IE6�8 */
+       url('IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('IRANSansWeb_Bold.ttf') format('truetype');  /* Saf3�5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('Lato-Lig.ttf') format('truetype');  /* Saf3�5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+* {
+	font-family: iransansweb,lato;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: iransansweb,lato;
+}
+
+ul > li > a{
+    font-family: iransansweb_bold !important;
+}
